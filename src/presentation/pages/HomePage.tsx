@@ -238,9 +238,9 @@ const FloatingCard = styled(motion.div)<{ $type: "proof" | "cta" | "benefit" }>`
   &::after { width: 100%; height: 6px; border-radius: 99px; background: rgba(255,255,255,.16); box-shadow: 0 -16px 0 rgba(255,255,255,.10); }
 `;
 
-const cardMotion = {
+const cardMotion: Variants = {
   hidden: { opacity: 0, scale: .86, y: 32 },
-  show: (delay: number) => ({ opacity: 1, scale: 1, y: 0, transition: { delay, duration: .9, ease: [0.16, 1, 0.3, 1] } }),
+  show: (delay: number) => ({ opacity: 1, scale: 1, y: 0, transition: { delay, duration: .9, ease: [0.16, 1, 0.3, 1] as const } }),
 };
 
 const heroVariants: Variants = {
