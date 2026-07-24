@@ -52,13 +52,6 @@ const ReflectionEyebrow = styled.p`
   text-transform: uppercase;
 `;
 
-const ReflectionTitle = styled.h2`
-  margin-bottom: clamp(18px, 3vh, 30px);
-  font-family: ${({ theme }) => theme.fonts.header};
-  font-size: clamp(1.45rem, 3.4vw, 2.65rem);
-  line-height: 1.08;
-`;
-
 const Question = styled.p`
   margin: 0 auto;
   max-width: 800px;
@@ -131,7 +124,6 @@ export function FiveSecondReveal() {
           >
             <ReflectionCard>
               <ReflectionEyebrow>La prueba de los cinco segundos</ReflectionEyebrow>
-              <ReflectionTitle>Si no se recuerda, no se comunicó.</ReflectionTitle>
               <Question>{REFLECTION_QUESTIONS[landingIndex]}</Question>
               <Hint>La primera impresión no cuenta toda la historia, pero decide si queremos seguir leyendo.</Hint>
             </ReflectionCard>
