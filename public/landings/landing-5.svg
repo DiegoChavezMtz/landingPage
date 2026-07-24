@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#ef765c"/><stop offset=".5" stop-color="#f7bb6b"/><stop offset="1" stop-color="#f9e3b0"/></linearGradient>
+    <linearGradient id="shade" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#173f4a" stop-opacity="0"/><stop offset="1" stop-color="#173f4a" stop-opacity=".78"/></linearGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#sky)"/>
+  <path d="M0 493c222-152 392-83 575 9 162 81 349 31 504-69 157-101 316-79 521 8v459H0z" fill="#275d65"/>
+  <path d="M0 614c249-117 458-80 632 35 201 133 440 99 599-22 151-115 263-92 369-23v296H0z" fill="#173f4a"/>
+  <rect width="1600" height="900" fill="url(#shade)"/>
+  <g font-family="Arial, sans-serif">
+    <text x="90" y="80" font-size="34" font-weight="800" fill="white">senda</text>
+    <text x="1090" y="75" font-size="15" fill="white">Destinos</text>
+    <text x="1200" y="75" font-size="15" fill="white">Cómo viajas</text>
+    <text x="1335" y="75" font-size="15" fill="white">Nosotros</text>
+    <text x="90" y="225" font-size="15" font-weight="700" letter-spacing="2" fill="#ffe2a9">DESCUBRE UNA NUEVA FORMA DE DESCUBRIR</text>
+    <text x="90" y="325" font-size="70" font-weight="800" fill="white">Todo viaje comienza</text>
+    <text x="90" y="405" font-size="70" font-weight="800" fill="white">con una historia.</text>
+    <text x="92" y="475" font-size="22" fill="white">Creamos experiencias únicas para personas como tú.</text>
+    <text x="92" y="510" font-size="22" fill="white">Inspírate, conecta, explora y vive más.</text>
+    <rect x="90" y="560" width="237" height="66" rx="33" fill="#ffe2a9"/>
+    <text x="209" y="601" text-anchor="middle" font-size="17" font-weight="700" fill="#173f4a">Descubrir más</text>
+    <g transform="translate(1030 450)">
+      <rect width="410" height="210" rx="18" fill="#fff7e7"/>
+      <text x="31" y="43" font-size="12" font-weight="700" letter-spacing="2" fill="#d35f4d">UNA EXPERIENCIA PARA TI</text>
+      <text x="31" y="90" font-size="31" font-weight="800" fill="#173f4a">Vuelve a sentir</text>
+      <text x="31" y="120" font-size="16" fill="#527078">Momentos · personas · lugares</text>
+      <rect x="31" y="151" width="158" height="34" rx="17" fill="#173f4a"/>
+      <text x="110" y="173" text-anchor="middle" font-size="13" font-weight="700" fill="white">Quiero saber más →</text>
+      <circle cx="356" cy="101" r="31" fill="#f7bb6b"/>
+      <path d="M356 76v50m-25-25h50" stroke="#173f4a" stroke-width="3"/>
+    </g>
+    <text x="90" y="810" font-size="16" font-weight="700" fill="#ffe2a9">VIVE MÁS</text>
+    <text x="430" y="810" font-size="16" font-weight="700" fill="#ffe2a9">SÉ TÚ MISMO</text>
+    <text x="720" y="810" font-size="16" font-weight="700" fill="#ffe2a9">ENCUENTRA TU CAMINO</text>
+  </g>
+</svg>

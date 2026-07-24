@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900">
+  <defs>
+    <linearGradient id="bg4" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#062e31"/><stop offset="1" stop-color="#105458"/></linearGradient>
+    <filter id="phone"><feDropShadow dx="0" dy="22" stdDeviation="18" flood-color="#001c1e" flood-opacity=".35"/></filter>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg4)"/>
+  <circle cx="1430" cy="120" r="300" fill="#2f8d85" opacity=".25"/>
+  <g font-family="Arial, sans-serif">
+    <text x="90" y="80" font-size="35" font-weight="800" fill="white">nora</text>
+    <circle cx="178" cy="69" r="8" fill="#b8f06a"/>
+    <text x="1050" y="75" font-size="15" fill="#ceeeee">Cuenta</text>
+    <text x="1140" y="75" font-size="15" fill="#ceeeee">Tarjeta</text>
+    <text x="1230" y="75" font-size="15" fill="#ceeeee">Ayuda</text>
+    <rect x="1333" y="42" width="165" height="53" rx="27" fill="#b8f06a"/>
+    <text x="1415" y="76" text-anchor="middle" font-size="16" font-weight="700" fill="#063134">Conocer más</text>
+    <text x="90" y="245" font-size="16" font-weight="700" letter-spacing="2" fill="#b8f06a">TU DINERO, SIN LETRA CHIQUITA</text>
+    <text x="90" y="344" font-size="80" font-weight="800" fill="white">Que tu dinero</text>
+    <text x="90" y="432" font-size="80" font-weight="800" fill="white">se sienta tuyo.</text>
+    <text x="92" y="493" font-size="22" fill="#ceeeee">Una cuenta clara para decidir, ahorrar y vivir</text>
+    <text x="92" y="525" font-size="22" fill="#ceeeee">sin perseguir a tu banco.</text>
+    <rect x="90" y="574" width="205" height="65" rx="33" fill="#b8f06a"/>
+    <text x="192" y="615" text-anchor="middle" font-size="17" font-weight="700" fill="#063134">Comenzar</text>
+    <text x="323" y="614" font-size="15" fill="#ceeeee">Toma menos de 3 minutos</text>
+    <g filter="url(#phone)">
+      <rect x="966" y="161" width="350" height="608" rx="42" fill="#f4fbf6"/>
+      <rect x="988" y="207" width="306" height="60" rx="15" fill="#e4f3ed"/>
+      <text x="1010" y="244" font-size="18" font-weight="700" fill="#154044">Hola, Mara</text>
+      <text x="1009" y="322" font-size="13" fill="#597477">DISPONIBLE</text>
+      <text x="1009" y="376" font-size="48" font-weight="800" fill="#154044">$12,480.50</text>
+      <rect x="1008" y="411" width="264" height="145" rx="18" fill="#154044"/>
+      <text x="1030" y="450" font-size="13" fill="#d8f2ee">NORA · DÉBITO</text>
+      <text x="1030" y="518" font-size="24" fill="white">•••• 4072</text>
+      <text x="1008" y="605" font-size="15" font-weight="700" fill="#154044">Movimientos recientes</text>
+      <text x="1010" y="650" font-size="14" fill="#154044">Supermercado</text>
+      <text x="1215" y="650" font-size="14" font-weight="700" fill="#154044">−$482</text>
+      <text x="1010" y="702" font-size="14" fill="#154044">Nómina</text>
+      <text x="1215" y="702" font-size="14" font-weight="700" fill="#154044">+$18,000</text>
+    </g>
+    <line x1="90" y1="755" x2="800" y2="755" stroke="#78aaa5"/>
+    <text x="90" y="809" font-size="16" font-weight="700" fill="#ceeeee">SIN COMISIONES OCULTAS</text>
+    <text x="390" y="809" font-size="16" font-weight="700" fill="#ceeeee">DINERO PROTEGIDO</text>
+  </g>
+</svg>
